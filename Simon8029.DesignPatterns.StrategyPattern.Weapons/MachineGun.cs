@@ -4,9 +4,14 @@ namespace Simon8029.DesignPatterns.StrategyPattern.Weapons
 {
     public class MachineGun : IWeapon
     {
-        public  void Attack(int x, int y)
+        public string Name
         {
-            Console.WriteLine("machine gun attack ({0}, {1})", x, y);
+            get { return "MachineGun"; }
+        }
+
+        public void Attack(int x, int y)
+        {
+            Console.WriteLine(" {0} attack ({1}, {2})", Name, x, y);
         }
     }
 }

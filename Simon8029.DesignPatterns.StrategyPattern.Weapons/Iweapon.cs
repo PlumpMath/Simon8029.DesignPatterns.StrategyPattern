@@ -2,6 +2,7 @@
 {
     public interface IWeapon
     {
-        void Attack( int x, int y);
+        string Name { get; }
+        void Attack(  int x, int y);
     }
 }

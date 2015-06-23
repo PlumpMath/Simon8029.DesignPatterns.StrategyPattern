@@ -11,7 +11,5 @@ namespace Simon8029.DesignPatterns.StrategyPattern.Units
         int Type { get; set; }
         string Name { get; set; }
         int Speed { get; set; }
-
-
     }
 }
